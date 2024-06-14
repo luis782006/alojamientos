@@ -14,7 +14,8 @@ body{
     margin: auto;
     height: 80dvh;
     display: flex;    
-    align-items: start;  
+    justify-content: center;
+    align-items: center;  
     background-color: rgba(0, 0, 0, 0.493);    
     padding: 10px 40px;
     border-radius: 20px;

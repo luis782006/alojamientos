@@ -16,7 +16,6 @@
     color: red;
 }
 
-
 .menu{        
     width:100%;
 }
@@ -32,6 +31,15 @@
 .menu ul li a{
     margin-right: 40px;
     list-style: none;
+    padding:10px;
     text-decoration: none;
     color: white;
+}
+.menu ul li a:hover{
+    background-color:#242430 ;
+}
+
+.menu ul li a:hover{      
+    color: red;
+    border-radius: 10px;
 }

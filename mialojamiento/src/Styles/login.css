@@ -18,3 +18,10 @@
     margin-left: 10px;
     font-size: 1.2rem;
 }
+.contenedor-login a{
+    text-decoration: none;
+    color: white;
+}
+.contenedor-login a :hover{    
+    color: red;
+}

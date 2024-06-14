@@ -8,6 +8,7 @@ import Portada from '../Paginas/Portada';
 import Playa from '../Paginas/Playa';
 import Sierra from '../Paginas/Sierra';
 import Ciudad from '../Paginas/Ciudad';
+import LoginUser from '../Paginas/LoginUser'
 
 function Home() {
   return (
@@ -26,6 +27,7 @@ function Home() {
               <Route path="/playa" element={<Playa />} />              
               <Route path="/sierra" element={<Sierra />} /> 
               <Route path="/ciudad" element={<Ciudad />} /> 
+              <Route path="/loginUser" element={<LoginUser />} /> 
             </Routes>
           </div>
         </main>

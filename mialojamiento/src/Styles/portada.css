@@ -1,0 +1,11 @@
+.fondo-portada{        
+    display: flex;    
+    align-items: center;  
+    width: 90%;
+    color: aliceblue;
+    margin: auto;
+    height: 80dvh; 
+    padding: 10px 40px;
+    border-radius: 20px;
+ 
+}

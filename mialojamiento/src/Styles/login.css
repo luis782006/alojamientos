@@ -1,0 +1,20 @@
+.contenedor-login{    
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 20px;       
+    width: 10%;
+    height: 50px;
+    background-color: #242430;
+    border-radius: 50px; 
+}
+.contenedor-login img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+}
+.contenedor-login p{
+    margin-left: 10px;
+    font-size: 1.2rem;
+}

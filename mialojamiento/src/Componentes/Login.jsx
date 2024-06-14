@@ -4,7 +4,6 @@ import '../Styles/login.css'
 import { Link } from "react-router-dom";
 
 
-{/* Est componente refiere a la presentacion del acceso a la pagina LoginUser*/}
 function Login ()  {
 
 
@@ -17,8 +16,6 @@ function Login ()  {
         </div>
     )
 }
-
-
 
 export default Login
 

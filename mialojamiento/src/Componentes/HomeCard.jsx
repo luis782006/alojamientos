@@ -11,21 +11,21 @@ function HomeCard () {
     <div className='contenedor-card'>
 
             <div className="card">
-              <Link to='/playa'>
-                  <img src={Playa} alt="Playa" />
-                  <h2>Playa</h2>
+              <Link to='/hotel'>
+                  <img src={Playa} alt="Hotel" />
+                  <h2>Hotel</h2>
               </Link>
             </div>
             <div className="card">
-              <Link to='/sierra'>
-                <img src={Sierra} alt="Sierra" />
-                <h2>Sierras</h2>
+              <Link to='/cabañas'>
+                <img src={Sierra} alt="Cabañas" />
+                <h2>Cabañas</h2>
               </Link>
             </div>          
             <div className="card">
-              <Link to='/ciudad'>
-                <img src={Ciudad} alt="Ciudad" />
-                <h2>Ciudad</h2>
+              <Link to='/apto'>
+                <img src={Ciudad} alt="Apto" />
+                <h2>Apto</h2>
               </Link>
             </div>
 

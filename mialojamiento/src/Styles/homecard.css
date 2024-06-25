@@ -8,6 +8,12 @@
     align-items: center;
     
 }
+
+.card a{ 
+    text-decoration: none;
+    
+}
+
 .card{
     border-radius: 50px;    
     width: 600px;

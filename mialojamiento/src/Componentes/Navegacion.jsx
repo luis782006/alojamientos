@@ -14,7 +14,7 @@ function Navegacion() {
           <li><Link to="/home">Home</Link></li>
           <li><Link to="/nosotros">Nosotros</Link></li>
           <li><Link to="/contacto">Contacto</Link></li>
-          <Login />
+          {/* <Login /> */}
         </ul>
       </div>
     </div>

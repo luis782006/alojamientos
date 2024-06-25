@@ -5,9 +5,9 @@ import Navegacion from '../Componentes/Navegacion';
 import Nosotros from '../Paginas/Nosotros';
 import Contacto from '../Paginas/Contacto';
 import Portada from '../Paginas/Portada';
-import Playa from '../Paginas/Playa';
-import Sierra from '../Paginas/Sierra';
-import Ciudad from '../Paginas/Ciudad';
+import Hotel from '../Paginas/Hotel';
+import Cabañas from '../Paginas/Cabañas';
+import Apto from '../Paginas/Apto';
 
 function Home() {
   return (
@@ -23,9 +23,9 @@ function Home() {
               <Route path="/home" element={<Portada />} />
               <Route path="/nosotros" element={<Nosotros />} />
               <Route path="/contacto" element={<Contacto />} /> 
-              <Route path="/playa" element={<Playa />} />              
-              <Route path="/sierra" element={<Sierra />} /> 
-              <Route path="/ciudad" element={<Ciudad />} /> 
+              <Route path="/hotel" element={<Hotel />} />              
+              <Route path="/cabañas" element={<Cabañas />} /> 
+              <Route path="/apto" element={<Apto />} /> 
             </Routes>
           </div>
         </main>

@@ -16,7 +16,6 @@
     color: red;
 }
 
-
 .menu{        
     width:100%;
 }
@@ -26,12 +25,21 @@
     justify-content: end;
     align-items: center;
     list-style: none;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .menu ul li a{
     margin-right: 40px;
     list-style: none;
+    padding:10px;
     text-decoration: none;
     color: white;
+}
+.menu ul li a:hover{
+    background-color:#242430 ;
+}
+
+.menu  ul li :hover{      
+    color: red;
+    border-radius: 10px;
 }

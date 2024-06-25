@@ -9,6 +9,12 @@ import Hotel from '../Paginas/Hotel';
 import Cabañas from '../Paginas/Cabañas';
 import Apto from '../Paginas/Apto';
 
+
+import Playa from '../Paginas/Playa';
+import Sierra from '../Paginas/Sierra';
+import Ciudad from '../Paginas/Ciudad';
+import LoginUser from '../Paginas/LoginUser';
+
 function Home() {
   return (
     <div>
@@ -26,6 +32,7 @@ function Home() {
               <Route path="/hotel" element={<Hotel />} />              
               <Route path="/cabañas" element={<Cabañas />} /> 
               <Route path="/apto" element={<Apto />} /> 
+              <Route path="/loginUser" element={<LoginUser />}/>
             </Routes>
           </div>
         </main>

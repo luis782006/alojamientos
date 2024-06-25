@@ -39,4 +39,7 @@
     transform: scale(1.05);
     border-radius: 50px; 
 }
+.card a{
+    text-decoration: none;
+}
 
